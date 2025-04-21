@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+# SubwayHero 🚇🦸‍♂️  
+> Connecting neighbors, delivering trust.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 프로젝트 소개  
+**SubwayHero**는 지하철역 인근 거주자들을 위한 **중고거래 + 실버택배 매칭 플랫폼**입니다.  
+시간이 없어 직접 거래가 어려운 사용자와, 지역 내에서 활동 중인 실버택배 인력을 연결해  
+**빠르고 안전한 동네 중고거래**를 가능하게 합니다.
 
-Currently, two official plugins are available:
+본 프로젝트는 **도시문제 해결형 아이디어**로, 디자인씽킹 방법론을 기반으로 기획・디자인・프로토타이핑 되었습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 배경 및 문제 인식
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🚩 실제 도시 문제로부터 출발:
+- 중고거래 시 ‘직거래’의 번거로움과 안전 문제
+- 지하철 중심 생활권의 제한적 자원 활용
+- 실버세대의 고립 및 반복적인 단순 업무
+- 디지털 격차로 인한 고령층의 정보 소외
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🔍 발견한 인사이트:
+- 지하철역 중심으로 지역 커뮤니티 형성 가능성  
+- 실버택배 인력의 여유 시간과 유동성 높은 이동 경로
+- 퀵배송 대비 1/2 수준으로 저렴한 당일 배송 서비스
+- ‘직거래’의 부담을 줄이고 신뢰를 높일 수 있는 연결 구조 필요  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ 주요 기능
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+| 기능 | 설명 |
+|------|------|
+| ✅ 중고거래 등록 | 원하는 물품을 등록하고 수령 장소 지정 (지하철역, 무인보관함, 자택 등) |
+| ✅ 실버택배 매칭 | 실버택배 기사 매칭
+| ✅ 안전 보증 시스템 | 대리 전달 인증 기능 및 후기 시스템 |
+| ✅ 커뮤니티 피드 | 지하철역 단위 동네 소식 및 거래 피드 운영 |
+| ✅ 고령층 UX 최적화 | 실버 기사용 인터페이스는 큰 글씨와 간단한 버튼 위주 구성 |
+
+---
+
+## 🛠 기술 스택
+
+- **Frontend**: React / Tailwind CSS  
+- **Backend**: Node.js
+- **Database**: ...  
+- **Design & Prototyping**: Figma, Illustrator, PhotoShop
+- **Deployment**: Vercel
+
+---
+
+## 🧠 접근 방법: 디자인 씽킹 프로세스 기반
+
+1. **공감(Empathize)** – 사용자 인터뷰 및 도시문제 분석  
+2. **정의(Define)** – 사용자 페르소나와 Pain Point 정리  
+3. **아이디에이션(Ideate)** – SCAMPER, 브레인라이팅 등 활용  
+4. **프로토타입(Prototype)** – UX Flow & 화면 설계  
+5. **테스트(Test)** – 사용자 시나리오 기반 피드백 반복 적용  
+
+---
+
+## 👥 팀 소개 
+
+| 역할 | 이름 | 담당 |
+|------|------|------|
+| PM / UX 리서치 | SupaKang | 디자인씽킹 리드, 사용자 조사 |
+| 프론트엔드 | SupaKang | 전체 UI 개발, 인터페이스 구축 |
+| 백엔드 | SupaKang | 실버 매칭 로직, DB 설계 |
+| 디자이너 | SupaKang | 프로토타입 제작 및 커뮤니티 기능 설계 |
+
+---
+
+## 📷 스크린샷 및 시연
+
+> 👉 (Figma 링크 / 시연 영상 링크 삽입 예정)
+
+---
+
+## 🚀 향후 계획
+
+- 공공기관 및 지자체와 연계 협의 추진  
+- 무인보관함 기업 제휴로 인프라 확장  
+- 실버 커뮤니티 기능 강화 (리워드, 감사 메시지 등)  
+- 앱 정식 배포 및 사용자 피드백 수렴
+
