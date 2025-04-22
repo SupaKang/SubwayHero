@@ -1,84 +1,96 @@
-# SubwayHero 🚇🦸‍♂️  
-> Connecting neighbors, delivering trust.
+# 🚇 SubwayHero – Connecting Neighbors, Delivering Trust
 
-## 📌 프로젝트 소개  
-**SubwayHero**는 지하철역 인근 거주자들을 위한 **중고거래 + 실버택배 매칭 플랫폼**입니다.  
-시간이 없어 직접 거래가 어려운 사용자와, 지역 내에서 활동 중인 실버택배 인력을 연결해  
-**빠르고 안전한 동네 중고거래**를 가능하게 합니다.
+**SubwayHero** is a community-centered delivery matching service that connects local secondhand item sellers and buyers via subway-friendly routes — all while empowering senior citizens with meaningful work opportunities.
 
-본 프로젝트는 **도시문제 해결형 아이디어**로, 디자인씽킹 방법론을 기반으로 기획・디자인・프로토타이핑 되었습니다.
+> Designed with Design Thinking Methodology.  
+> Inspired by everyday urban problems.  
+> Built for local trust and social impact.
 
 ---
 
-## 💡 배경 및 문제 인식
+## 💡 About the Project
 
-### 🚩 실제 도시 문제로부터 출발:
-- 중고거래 시 ‘직거래’의 번거로움과 안전 문제
-- 지하철 중심 생활권의 제한적 자원 활용
-- 실버세대의 고립 및 반복적인 단순 업무
-- 디지털 격차로 인한 고령층의 정보 소외
+SubwayHero is a prototype service aiming to:
+- Solve pain points in **secondhand direct transactions**
+- Provide accessible, flexible work to **senior citizens**
+- Use the **subway network** as a trusted logistics infrastructure
+- Foster **local micro-communities** and social capital
 
-### 🔍 발견한 인사이트:
-- 지하철역 중심으로 지역 커뮤니티 형성 가능성  
-- 실버택배 인력의 여유 시간과 유동성 높은 이동 경로
-- 퀵배송 대비 1/2 수준으로 저렴한 당일 배송 서비스
-- ‘직거래’의 부담을 줄이고 신뢰를 높일 수 있는 연결 구조 필요  
+This project was planned and designed using the **Design Thinking** process and real-world data on secondhand market behavior, senior employment trends, and urban infrastructure use.
 
 ---
 
-## ✨ 주요 기능
+## 🎯 Key Features
 
-| 기능 | 설명 |
-|------|------|
-| ✅ 중고거래 등록 | 원하는 물품을 등록하고 수령 장소 지정 (지하철역, 무인보관함, 자택 등) |
-| ✅ 실버택배 매칭 | 실버택배 기사 매칭
-| ✅ 안전 보증 시스템 | 대리 전달 인증 기능 및 후기 시스템 |
-| ✅ 커뮤니티 피드 | 지하철역 단위 동네 소식 및 거래 피드 운영 |
-| ✅ 고령층 UX 최적화 | 실버 기사용 인터페이스는 큰 글씨와 간단한 버튼 위주 구성 |
-
----
-
-## 🛠 기술 스택
-
-- **Frontend**: React / Tailwind CSS  
-- **Backend**: Node.js
-- **Database**: ...  
-- **Design & Prototyping**: Figma, Illustrator, PhotoShop
-- **Deployment**: Vercel
+| Feature | Description |
+|--------|-------------|
+| ✅ Secondhand Item Listing | Users can register items and choose delivery locations (e.g., subway station, locker, home) |
+| ✅ Silver Courier Matching | Match available senior couriers with nearby delivery requests |
+| ✅ Secure Delivery System | Courier authentication and photo-based delivery confirmation |
+| ✅ Community Feed | Share reviews, thanks, and local updates at the subway line level |
+| ✅ Senior-friendly UI | Large fonts, minimal taps, and voice guidance for senior couriers |
 
 ---
 
-## 🧠 접근 방법: 디자인 씽킹 프로세스 기반
+## 🧠 Problem Background
 
-1. **공감(Empathize)** – 사용자 인터뷰 및 도시문제 분석  
-2. **정의(Define)** – 사용자 페르소나와 Pain Point 정리  
-3. **아이디에이션(Ideate)** – SCAMPER, 브레인라이팅 등 활용  
-4. **프로토타입(Prototype)** – UX Flow & 화면 설계  
-5. **테스트(Test)** – 사용자 시나리오 기반 피드백 반복 적용  
+### 🚩 Urban Problems Addressed:
+- Time and safety burdens of face-to-face secondhand trading
+- Digital divide for older adults in job access
+- Rising social cost of elderly care and idle labor
+- Underutilized subway ecosystem in last-mile logistics
 
----
-
-## 👥 팀 소개 
-
-| 역할 | 이름 | 담당 |
-|------|------|------|
-| PM / UX 리서치 | SupaKang | 디자인씽킹 리드, 사용자 조사 |
-| 프론트엔드 | SupaKang | 전체 UI 개발, 인터페이스 구축 |
-| 백엔드 | SupaKang | 실버 매칭 로직, DB 설계 |
-| 디자이너 | SupaKang | 프로토타입 제작 및 커뮤니티 기능 설계 |
+### 📊 Key Research Insights:
+- 66.2% of users engage in secondhand markets due to price
+- 57.2% of seniors want to work again — mostly for income and health
+- 93.9% of seniors use instant messaging apps, but complex apps remain a barrier
+- Most secondhand users cite *“time coordination”* as their top frustration
 
 ---
 
-## 📷 스크린샷 및 시연
+## 🏗 Tech Stack
 
-> 👉 (Figma 링크 / 시연 영상 링크 삽입 예정)
+| Layer | Tools |
+|-------|-------|
+| Frontend | React, Tailwind CSS, TypeScript |
+| Backend | Firebase (Auth, Firestore), Node.js (planned) |
+| Design | Figma, Illustrator |
+| Deployment | Vercel |
 
 ---
 
-## 🚀 향후 계획
+## 🧪 Design Thinking Approach
 
-- 공공기관 및 지자체와 연계 협의 추진  
-- 무인보관함 기업 제휴로 인프라 확장  
-- 실버 커뮤니티 기능 강화 (리워드, 감사 메시지 등)  
-- 앱 정식 배포 및 사용자 피드백 수렴
+1. **Empathize** – Interviews with secondhand users & seniors
+2. **Define** – Identified needs: easy logistics, flexible senior jobs
+3. **Ideate** – SCAMPER & Brainwriting techniques generated 30+ ideas
+4. **Prototype** – UX flows built in Figma, tailored for users and seniors
+5. **Test** – Iterated via scenario-based walkthroughs & feedback
 
+---
+
+## 👩‍💻 Team
+
+| Role | Name | Responsibilities |
+|------|------|------------------|
+| PM / UX Research | SupaKang | Design thinking, field research |
+| Frontend Dev | SupaKang | UI development |
+| Backend Dev | SupaKang | Courier matching logic, DB design |
+| Designer | SupaKang | Prototype, illustrations |
+
+---
+
+## 📽 Preview & Demo
+
+> Coming Soon:  
+> - [🖼 Figma Screens](#)  
+> - [📹 User Demo Video](#)
+
+---
+
+## 🌍 Future Roadmap
+
+- 🤝 Partner with local gov & subway operators
+- 📦 Collaborate with smart locker providers
+- 🎁 Add social incentives (thank-you messages, badges)
+- 📲 Release mobile app for beta testers
