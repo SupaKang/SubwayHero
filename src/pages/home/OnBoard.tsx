@@ -25,7 +25,10 @@ const OnBoardPage = () => {
 
           <div className="md:w-1/2 flex justify-end">
             <div className="w-80 h-64 relative">
-              <img src="src/assets/images/mascot00.png" alt="img02"></img>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/subwayhero-b13ec.firebasestorage.app/o/assets%2Fmascot00.png?alt=media&token=ca716469-8c8c-4e92-9e69-becb3cd02aff"
+                alt="img02"
+              ></img>
             </div>
           </div>
           <div />
@@ -67,7 +70,7 @@ const OnBoardPage = () => {
           <div className="md:w-1/2 flex justify-end">
             <div className="w-full max-w-xs h-auto p-2">
               <img
-                src="src/assets/images/untact_delivery.png"
+                src="https://firebasestorage.googleapis.com/v0/b/subwayhero-b13ec.firebasestorage.app/o/assets%2Funtact_delivery.png?alt=media&token=3944b87d-001e-462c-9233-65b5e7ab1582"
                 alt="img02"
               ></img>
             </div>
@@ -88,7 +91,7 @@ const OnBoardPage = () => {
           <div className="md:w-1/2 flex justify-end">
             <div className="w-full max-w-xs max-h-xs p-2">
               <img
-                src="src/assets/images/oneday_delivery.png"
+                src="https://firebasestorage.googleapis.com/v0/b/subwayhero-b13ec.firebasestorage.app/o/assets%2Foneday_delivery.png?alt=media&token=3aca503e-2cc4-4b2e-a715-dee5d88caaa7"
                 alt="img02"
               ></img>
             </div>
@@ -111,7 +114,7 @@ const OnBoardPage = () => {
           <div className="md:w-1/2 flex justify-end">
             <div className="w-full max-w-xs h-auto p-2">
               <img
-                src="src/assets/images/value_proposition.png"
+                src="https://firebasestorage.googleapis.com/v0/b/subwayhero-b13ec.firebasestorage.app/o/assets%2Fvalue_proposition.png?alt=media&token=f1719c50-f43f-4377-a19d-09b59c145fa6"
                 alt="img02"
               ></img>
             </div>
