@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+google-cloud-cli-*.tar.gz
+google-cloud-sdk/bin/anthoscli
+google-cloud-sdk/data/cli/gcloud.json
+google-cloud-sdk/
