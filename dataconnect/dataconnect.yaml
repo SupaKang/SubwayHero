@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "SubwayHero"
+location: "asia-northeast1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "subwayhero-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

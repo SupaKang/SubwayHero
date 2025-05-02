@@ -1,0 +1,15 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // 개발 목적으로 모든 Storage 작업 허용
+    match /{allPaths=**} {
+      allow read, write: if true;
+    }
+    
+    // 사용자 관련 파일은 인증된 사용자만 접근
+    // match /idCards/{userId}/{fileName} {
+    //   allow read: if request.auth != null;
+    //   allow write: if request.auth != null && request.auth.uid == userId.split('_')[0];
+    // }
+  }
+}
